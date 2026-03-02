@@ -607,4 +607,13 @@
   }
 </script>
 
-</body></html>
+<script>
+(function(){
+var b=document.querySelector('.thank-you p');
+if(b){
+var t=b.innerHTML;
+var i=t.indexOf('reach out');
+if(i>-1){
+b.innerHTML=t.substring(0,i)+'reach out to Todd directly <a href="mai'+'lto:toddbeach2'+'47@gma'+'il.com" style="color:#1a3659;text-decoration:underline">here</a>';
+}}})();
+</script></body></html>
